@@ -1,4 +1,4 @@
-Write a program in c to perform addition, substraction, multiplication and division of two variable by taking user input.
+//Write a program in c to perform addition, substraction, multiplication and division of two variable by taking user input.
 #include<stdio.h>
 int main()
 {
