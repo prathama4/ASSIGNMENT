@@ -1,4 +1,4 @@
-Write a program in c to check whether a line is straight line or not.
+//Write a program in c to check whether a line is straight line or not.
 #include<stdio.h>
 int main()
 {
