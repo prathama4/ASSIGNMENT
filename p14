@@ -1,0 +1,18 @@
+Write a program in c to perform addition, substraction, multiplication and division of two variable by taking user input.
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,e,f;
+printf("Enter the values of a and b:\n");
+scanf("%f %f",&a,&b);
+c=(a+b);
+d=(a-b);
+e=(a*b);
+f=(b/a);
+printf("Addition=%f\n",c);
+printf("Substraction:%f\n",d);
+printf("Multiplication:%f\n",e);
+printf("Division:%f\n",f);
+}
+
+
