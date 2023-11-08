@@ -1,0 +1,11 @@
+//Write a program in c to input 5 subject from class 12 and calculate the average of the grades,
+#include<stdio.h>
+int main()
+{
+int m,s,sst,b,e,a,avg;
+printf("Enter the marks of maths,science,social studies,bengali and english:\n");
+scanf("%d %d %d %d %d",&m,&s,&sst,&b,&e);
+a=m+s+sst+b+e;
+avg=a/5;
+printf("Average of all the marks is:%d\n",avg);
+}
