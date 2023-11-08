@@ -1,0 +1,21 @@
+//Write a program in c to take any keyboard input from the user to determine its data type.
+#include <stdio.h>
+#include <ctype.h>
+int main() {
+char a;
+int p,q,r,s;
+printf("Enter a character:");
+scanf("%c",&a);
+if(a>='a'&&a<='z'||a>='A'&&a<='Z')
+{
+    printf("It is of character data type");
+}
+else if(a>='0'&&a<='9')
+{
+    printf("It is of integer data type");
+}
+else
+{
+    printf("It is of character data type");
+}
+}
